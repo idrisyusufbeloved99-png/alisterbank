@@ -16,10 +16,11 @@ html{
 :root{
     --primary-color:#da2415;
     --gary-color:#c3c3c3;
-    --light-gray-color:#c3c3c3;
+    --light-gray-color:#ebebeb;
     --white-color:#ffff;
-    --black-color:#0000;
-
+    --black-color:#000000;
+    --off-white:#f7f7f7;
+    --text-color:#939393;
 }
 /* custom rules */
 h1,h2,h3,h4,h5,h6{
@@ -38,8 +39,67 @@ h1,h2,h3,h4,h5,h6{
     color: var(--primary-color);
 }
 .container{
-    width: 80%;
+    width: 81%;
     margin: 0 auto;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
- 
+#topnav{
+   background: var(--light-gray-color);
+   min-height: 7vh;
+}
+#topnav .container{
+   height: 7vh;
+}
+#topnav .container .links ul{
+    display: flex;
+    gap: 1rem;
+}
+#topnav .container .links ul li{
+    font-size: .85rem;
+    position: relative;
+}
+#topnav .container .links ul li ul{
+    display: none;
+}
+#topnav .container .links ul li:hover ul{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    top: 170%;
+    text-align: center;
+}
+#topnav .container .links ul li ul li{
+
+}
+#topnav .container .links ul li a{
+    color: var(--text-color);
+    padding: 0.9rem 1.2rem;
+}
+#topnav .container .links ul li a.active{
+    color: var(--black-color);
+    background: var(--white-color);
+}
+#topnav .container .links ul li a:hover{
+    color: var(--black-color);
+    transition: all o.3s ease-in-out;
+}
+
+#topnav .container .social span{
+    background: var(--gary-color);
+    padding: .21rem;
+    border-radius: 50%;
+    color: var(--white-color);
+    
+}
+#topnav .container .social span:hover{
+    background-color: var(--black-color);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+/* top nav */
+/* header  */
+/* main */
+/* footer */
