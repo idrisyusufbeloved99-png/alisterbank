@@ -75,7 +75,70 @@
         </div>
     </header>
     <!-- main -->
-    <main></main>
+    <main>
+        <!-- banner section -->
+        <section id="banner">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="bg-slide slide-1">
+                <!-- <img src="/assets/img/slider-1.jpg" alt="" /> -->
+                <div class="container">
+                  <div class="text-cont">
+                    <!-- <marquee behavior="" direction="up"> -->
+                    <h1>Gives back to your <br />Community <span>.</span></h1>
+                    <!-- </marquee> -->
+
+                    <p>make it easy for you</p>
+                    <a href="" class="btn">Find our more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="bg-slide slide-2">
+                <!-- <img src="/assets/img/slider-2.jpg" alt="" /> -->
+                <div class="container">
+                  <div class="text-cont">
+                    <!-- <marquee behavior="" direction="up"> -->
+                    <h1>
+                      Connecting all your, <br />banking needs <span>.</span>
+                    </h1>
+                    <!-- </marquee> -->
+
+                    <p>make it easy for you</p>
+                    <a href="" class="btn">Find our more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="bg-slide slide-3">
+                <!-- <img src="/assets/img/slider-3.jpg" alt="" /> -->
+                <div class="container">
+                  <div class="text-cont">
+                    <!-- <marquee behavior="" direction="up"> -->
+                    <h1>
+                      Connecting all your, <br />banking needs <span>.</span>
+                    </h1>
+                    <!-- </marquee> -->
+
+                    <p>make it easy for you</p>
+                    <a href="" class="btn">Find our more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </section>
+        <!-- partners section -->
+        <!-- our services -->
+        <!-- business banking -->
+        <!-- stay connected -->
+    </main>
     <!-- footer -->
     <footer></footer>
     <!-- swiper js -->
@@ -87,6 +150,12 @@
       AOS.init();
     //   swiper 
     var swiper = new Swiper(".mySwiper", {});
+    var swiper = new Swiper(".mySwiper", {
+        autoplay: {
+          delay: 2000,
+          disableOnInteraction: false,
+        },
+      });
     </script>
 </body>
 </html>

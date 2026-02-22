@@ -139,7 +139,7 @@ header .container .down ul{
     align-items: center;
     gap: 2.5rem;
 }
-header .container .down ul li{}
+
 header .container .down ul li a {
   color: var(--black-color);
   position: relative;
@@ -161,6 +161,114 @@ header .container .down ul li a::after {
 
 header .container .down ul li a:hover::after {
   transform: scaleX(1);
+}
+main #banner {
+    height: 100vh;
+}
+main #banner .swiper {
+}
+main #banner .swiper .swiper-wrapper {
+}
+main #banner .swiper .swiper-wrapper .swiper-slide {
+}
+main #banner .swiper .swiper-wrapper .swiper-slide .slide-1 {
+  /* background: red; */
+  background-image: url(/assets/img/slider-1.jpg);
+  width: 100%;
+  height: 80vh;
+}
+main #banner .swiper .swiper-wrapper .swiper-slide .slide-2 {
+  /* background: red; */
+  background-image: url(/assets/img/slider-2.jpg);
+  width: 100%;
+  height: 80vh;
+}
+main #banner .swiper .swiper-wrapper .swiper-slide .slide-3 {
+  /* background: red; */
+  background-image: url(/assets/img/slider-3.jpg);
+  width: 100%;
+  height: 80vh;
+}
+main #banner .swiper .swiper-wrapper .swiper-slide .bg-slide .container {
+  height: 80vh;
+}
+main
+  #banner
+  .swiper
+  .swiper-wrapper
+  .swiper-slide
+  .bg-slide
+  .container
+  .text-cont {
+}
+main
+  #banner
+  .swiper
+  .swiper-wrapper
+  .swiper-slide
+  .bg-slide
+  .container
+  .text-cont
+  h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: var(--white-color);
+  text-shadow: 0rem 0rem 0.22rem red;
+  margin-bottom: 1rem;
+}
+main
+  #banner
+  .swiper
+  .swiper-wrapper
+  .swiper-slide
+  .bg-slide
+  .container
+  .text-cont
+  p{
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: var(--black-color);
+  margin-bottom: 1rem;
+}
+main
+  #banner
+  .swiper
+  .swiper-wrapper
+  .swiper-slide
+  .bg-slide
+  .container
+  .text-cont
+  .btn{
+  padding: .72rem 1.6rem;
+  color: var(--white-color);
+  border-radius: 1.5rem;
+}
+main
+  #banner
+  .swiper
+  .swiper-wrapper
+  .swiper-slide
+  .bg-slide
+  .container
+  .text-cont
+  .btn:hover{
+    color: var(--primary-color);
+
+  }
+main
+  #banner
+  .swiper
+  .swiper-wrapper
+  .swiper-slide
+  .bg-slide
+  .container
+  .text-cont
+  h1
+  > span {
+  color: var(--primary-color);
+  text-shadow: 0rem 0rem 0.22rem #fff;
 }
 /* main */
 /* footer */
