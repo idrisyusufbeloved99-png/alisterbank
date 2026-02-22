@@ -107,7 +107,6 @@ header{
 }
 header .container{
     height: 20vh;
-    border: 1px solid black;
     flex-direction: column;
 }
 header .container .top{
@@ -130,6 +129,38 @@ header .container .top .top-right span a{
 header .container .top .top-right span:hover a{
     color: var(--primary-color);
 }
+header .container .down{
+    width: 100%;
+    height: 10vh;
+}
+header .container .down ul{
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    gap: 2.5rem;
+}
+header .container .down ul li{}
+header .container .down ul li a {
+  color: var(--black-color);
+  position: relative;
+  transition: transform 0.1s ease-in-out;
+}
+header .container .down ul li a::before,
+header .container .down ul li a::after {
+  content: "";
+  position: absolute;
+  background-color: var(--primary-color);
+  transition: transform 0.5s;
+  left: 0;
+  width: 100%;
+  height: 1.6px;
+  bottom: -15px;
+  transform: scaleX(0);
+  transform-origin: left;
+}
 
+header .container .down ul li a:hover::after {
+  transform: scaleX(1);
+}
 /* main */
 /* footer */
