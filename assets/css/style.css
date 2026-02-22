@@ -60,7 +60,7 @@ h1,h2,h3,h4,h5,h6{
     font-size: .85rem;
     position: relative;
 }
-#topnav .container .links ul li ul{
+/* #topnav .container .links ul li ul{
     display: none;
 }
 #topnav .container .links ul li:hover ul{
@@ -71,9 +71,9 @@ h1,h2,h3,h4,h5,h6{
     top: 170%;
     text-align: center;
 }
-#topnav .container .links ul li ul li{
+#topnav .container .links ul li ul li{ */
 
-}
+
 #topnav .container .links ul li a{
     color: var(--text-color);
     padding: 0.9rem 1.2rem;
@@ -101,5 +101,35 @@ h1,h2,h3,h4,h5,h6{
 }
 /* top nav */
 /* header  */
+header{
+    background: var(--white-color);
+    height: 20vh;
+}
+header .container{
+    height: 20vh;
+    border: 1px solid black;
+    flex-direction: column;
+}
+header .container .top{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+/* header .container .top .top-left{}
+header .container .top .top-left img{} */
+header .container .top .top-right{
+    display: flex;
+    gap: 1rem;
+}
+header .container .top .top-right span{}
+header .container .top .top-right span a{
+    color: var(--black-color);
+}
+header .container .top .top-right span:hover a{
+    color: var(--primary-color);
+}
+
 /* main */
 /* footer */
