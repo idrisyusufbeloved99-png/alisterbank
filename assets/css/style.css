@@ -256,7 +256,8 @@ main
   text-shadow: 0rem 0rem 0.22rem #fff;
 }
 /* partners */
-main #partners{
+main #partners,
+main #services{
     background: var(--light-gray-color);
     padding: 1rem 0;
 }
@@ -277,6 +278,38 @@ main #partners .container .logo{
 main #partners .container .logo img{
     width: 12vw;
     padding: 0 1rem;
+}
+main #services{}
+main #services .headings{
+    text-align: center;
+    padding: 2rem 0;
+}
+main #services .container{
+    gap: 3rem;
+}
+main #services .container .box{
+    height: 40vh;
+    
+}
+main #services .container .box i{
+    color: var(--primary-color);
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+main #services .container .box h1{
+    font-size: 2rem;
+}
+main #services .container .box p{
+    margin: 1.5rem 0;
+}
+main #services .container .box a{
+    font-weight: bold;
+    color: var(--black-color);
+}
+main #services .container .box a:hover{
+    font-weight: bold;
+    color: var(--primary-color);
+    transition: .2s ease-in-out;
 }
 
 /*  */
