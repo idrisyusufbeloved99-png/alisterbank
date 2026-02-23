@@ -60,20 +60,6 @@ h1,h2,h3,h4,h5,h6{
     font-size: .85rem;
     position: relative;
 }
-/* #topnav .container .links ul li ul{
-    display: none;
-}
-#topnav .container .links ul li:hover ul{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    width: 100%;
-    top: 170%;
-    text-align: center;
-}
-#topnav .container .links ul li ul li{ */
-
-
 #topnav .container .links ul li a{
     color: var(--text-color);
     padding: 0.9rem 1.2rem;
@@ -163,7 +149,6 @@ header .container .down ul li a:hover::after {
   transform: scaleX(1);
 }
 main #banner {
-    height: 100vh;
 }
 main #banner .swiper {
 }
@@ -270,5 +255,30 @@ main
   color: var(--primary-color);
   text-shadow: 0rem 0rem 0.22rem #fff;
 }
+/* partners */
+main #partners{
+    background: var(--light-gray-color);
+    padding: 1rem 0;
+}
+main #partners .container{
+    border-bottom: 1px solid var(--gary-color);
+    padding: 2rem;
+}
+main #partners .container text{
+    width: 25%;
+}
+main #partners .container .text h4{
+    font-size: 1.1rem;
+    color: var(--text-color);
+}
+main #partners .container .logo{
+    width: 75%;
+}
+main #partners .container .logo img{
+    width: 12vw;
+    padding: 0 1rem;
+}
+
+/*  */
 /* main */
 /* footer */
